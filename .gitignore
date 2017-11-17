@@ -1,0 +1,6 @@
+node_modules/
+tyepScript/
+errorShots/
+reports/
+*.js
+.vscode

@@ -1,0 +1,22 @@
+{
+  "name": "webdriverio-cucumber",
+  "version": "1.0.0",
+  "description": "Webdriver.io and Cucumber proof of concept",
+  "scripts": {
+    "build": "tsc",
+    "test": "wdio typeScript/config/wdio.conf.js"
+  },
+  "devDependencies": {
+    "@types/cucumber": "^2.0.4",
+    "@types/node": "^8.0.3",
+    "@types/webdriverio": "^4.8.6",
+    "chai": "^4.0.2",
+    "chai-as-promised": "^7.0.0",
+    "cucumber": "^3.0.4",
+    "cucumber-html-reporter": "^3.0.4",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.6.1",
+    "wdio-cucumber-framework": "^1.0.2",
+    "webdriverio": "^4.9.8"
+  }
+}
