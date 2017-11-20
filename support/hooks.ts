@@ -1,5 +1,5 @@
 import * as webdriverio from "webdriverio";
-const { BeforeAll, After, Status } = require("cucumber");
+const { After } = require("cucumber");
 
 After(function(scenario) {
   browser.url('/logout');

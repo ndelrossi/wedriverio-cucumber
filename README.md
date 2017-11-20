@@ -1,6 +1,6 @@
 ### Webdriverio-Cucumber proof of concept
 
-Prood of concept for webdriverio and cucumber. Uses typescript and page
+Proof of concept for webdriverio and cucumber. Uses typescript and page
 objects.  
 
 Uses sample app at
