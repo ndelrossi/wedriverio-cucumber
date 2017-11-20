@@ -1,12 +1,12 @@
-import { CollectionPageObject } from "../pages/collectionPage";
-import { BrowsePageObject } from "../pages/browsePage";
-import { ViewBookPageObject } from "../pages/viewBookPage";
+import { CollectionPageObject } from "../pages/collection.page";
+import { BrowsePageObject } from "../pages/browse.page";
+import { ViewBookPageObject } from "../pages/view-book.page";
 import { expect } from "chai";
 const { Given, When, Then } = require("cucumber");
 
 const CollectionPage: CollectionPageObject = new CollectionPageObject();
-const BrowsePage: BrowsePageObject = new BrowsePageObject();
-const ViewBookPage: ViewBookPageObject = new ViewBookPageObject();
+const BrowsePage:     BrowsePageObject = new BrowsePageObject();
+const ViewBookPage:   ViewBookPageObject = new ViewBookPageObject();
 
 When(/^I browse for the book "(.*)"$/, async (bookName) => {
   BrowsePage.open();
